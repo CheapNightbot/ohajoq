@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | Joqnix</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="shortcut icon" href="static/Moo__nix.avif" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="static/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a class="uppercase button">social media</a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#"><i class="bi bi-twitch"></i></a>
+            </div>
+            <p class="nav-heading" style="visibility: hidden;">Contact Us</p>
+            <div>
+                <a href="index.html" class="uppercase button">home</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 id="contact-us">Contact Us</h1>
+            <h2>Let's Connect! 💌</h2>
+            <p>Thank you for reaching out! I'll do my best to respond within 3-5 business days. If you haven't heard
+                back from me after
+                that, please feel free to message me again!</p>
+        </section>
+        <section>
+            <p>Please do refer the Inqury Guidelines before sending</p>
+        </section>
+        <section>
+            <form action="#" method="post">
+                <label for="inquiry">Select your Inquiry Type</label>
+                <select name="inquiry" id="inquiry" required>
+                    <option value="Please choose an option" selected disabled>Please choose an option</option>
+                    <option value="business">Business Inquiry</option>
+                    <option value="collab">Collaboration Request</option>
+                    <option value="business">Fan Message</option>
+                    <option value="business">Other</option>
+                </select>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" placeholder="Brief topic of your message" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Write your message" rows="5" required></textarea>
+
+                <button id="submit" type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
